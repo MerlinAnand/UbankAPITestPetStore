@@ -1,0 +1,38 @@
+{
+  "createPet": {
+    "id": 112,
+    "category": {
+      "id": 112,
+      "name": "string"
+    },
+    "name": "dog12",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 2,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  "updatePet":{
+    "id": 112,
+    "category": {
+      "id": 112,
+      "name": "string"
+    },
+    "name": "cat12",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 2,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  }
+}

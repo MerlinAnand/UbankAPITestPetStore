@@ -1,0 +1,28 @@
+{
+  "name": "cypress-api-lab",
+  "version": "1.0.0",
+  "description": "This is cypress API automation Test for PetStore API Endpoints",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run --env allure=true --headed",
+    "allure:report": "allure generate allure-results --clean  -o allure-report",
+    "clearReport": "rm -r allure-results",
+    "test": "npm run clearReport || npm run cy:run || npm run posttest",
+    "posttest": "npm run allure:report"   
+  },
+  "keywords": [],
+  "author": "Merlin",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "@testing-library/cypress": "^7.0.3",
+    "allure-commandline": "^2.13.8",
+    "cypress": "^6.9.1",
+    "cypress-cucumber-preprocessor": "^4.0.0",
+    "cypress-xpath": "^1.6.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/tests",
+    "nonGlobalStepDefinitions": false
+  }
+}

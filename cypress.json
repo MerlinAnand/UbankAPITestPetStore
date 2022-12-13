@@ -1,0 +1,10 @@
+{
+"env":{ 
+"url": "https://petstore.swagger.io/v2/pet/",
+"api-key-value": "special-key"
+ },
+"testFiles": ["**/*.{feature,features}"],
+"allure": true,
+"allureResultsPath" : "cypress/allure-results",
+"integrationFolder":"cypress/tests"
+}
