@@ -24,3 +24,6 @@ How to run locally and generate allure report:
   Features -> All test scenarios data  go here under the respective feature files
   StepDefinition -> All test step implementation go here under the respective steps file
   support -> All support files like cypress commands go here under the respective folder
+  
+#Github Repo
+ https://github.com/MerlinAnand/UbankAPITestPetStore
